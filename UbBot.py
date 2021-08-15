@@ -96,7 +96,7 @@ def Al(indexx):
         '<u>' + 'Exam Results' + '</u>' +  '\n' + '\n' +  sub1name + ' = ' + '<b>' + sub1result + '</b>' + '\n' + 
         sub2name + ' = '  + '<b>' + sub2result + '</b>' + '\n' +  sub3name + ' = '  + '<b>' + sub3result + '</b>' + '\n' + 
         sub4name + ' = '  + '<b>' + sub4result + '</b>' + '\n' +  sub5name + ' = '  + '<b>' + sub5result + '</b>' + '\n' + '\n' +
-        '✅ All the Data Verified by the Government' + '\n' +'~ @UvinduBro 🇱🇰 ')
+        '✅ All the Data Verified by the Government' + '\n' +'~ @szrosebot 🇱🇰 ')
 
     return textt
 
@@ -141,7 +141,7 @@ def Ol(olindexx):
          sub4name + ' = '  + '<b>' + sub4result + '</b>' + '\n' +  sub5name + ' = '  + '<b>' + sub5result + '</b>' + '\n' +  
          sub6name + ' = '  + '<b>' + sub6result + '</b>' + '\n' +  sub7name + ' = '  + '<b>' + sub7result + '</b>' + '\n' + 
          sub8name + ' = '  + '<b>' + sub8result + '</b>' + '\n' +  sub9name + ' = '  + '<b>' + sub9result + '</b>' + '\n' + '\n' +
-         '✅ All the Data Verified by the Government' + '\n' +'~ @UvinduBro 🇱🇰 ')
+         '✅ All the Data Verified by the Government' + '\n' +'~ @szrosebot 🇱🇰 ')
          
     return textt
 
@@ -167,12 +167,12 @@ def G5(g5indexx):
          'Name = '  + '<b>' + G5name + '</b>' + '\n' + 'District Rank = '  + '<b>' + G5drank + '</b>' + '\n' +  'Island Rank = '  + '<b>' + G5irank + '</b>' + '\n' + '\n' + '\n' +
          '<u>' + 'Exam Results' + '</u>' +  '\n' + '\n' +
          'Marks = ' + G5marks + '\n' + 'District / Medium Cut off Mark = ' + G5cutoffmarks + '\n' + '\n' +
-         '✅ All the Data Verified by the Government' + '\n' +'~ @UvinduBro 🇱🇰 ')
+         '✅ All the Data Verified by the Government' + '\n' +'~ @szrosebot 🇱🇰 ')
 
     return textt
 
 
-@bot.on(events.NewMessage(pattern='/help'))
+@bot.on(events.NewMessage(pattern='/hel'))
 async def help(event):
     await event.respond('**This is Donents.lk Bot Help** \n \n To Get \n\n • (A/L)  Results - /al ```Index No``` \n • (O/L) Results - /ol ```Index No``` \n • G5 SCHOLARSHIP Results - /g5 ```Index No``` \n\n ~ @Uvindu_Bro 🇱🇰')
     raise events.StopPropagation
@@ -180,7 +180,7 @@ async def help(event):
 
 # Start Command
 
-@bot.on(events.NewMessage(pattern='/start'))
+@bot.on(events.NewMessage(pattern='/star'))
 async def start(event):
     stat(event.original_update.message.peer_id.user_id)
     raise events.StopPropagation
